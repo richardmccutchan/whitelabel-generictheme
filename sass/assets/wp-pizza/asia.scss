@@ -1,0 +1,31 @@
+#page {
+  background-image: url(/wp-content/uploads/asiatisch-fruehlingsrollen.png), url(/wp-content/uploads/asiatisch-halber-teller-kohl-nudeln.png), url(/wp-content/uploads/blatt.png), url(/wp-content/uploads/blatt.png), url(/wp-content/uploads/salat.png), url(/wp-content/uploads/pilz.png), url(/wp-content/uploads/asiatisch-fruehlingsrollen.png);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: -31rem -3rem, left 42rem, left 46rem, right 20rem, 120% -8rem, left 30rem, 120% 30rem;
+
+}
+#home,
+#shop,
+#pages {
+  background-image: url(/wp-content/uploads/bg.jpg) !important;
+  background-attachment: scroll !important
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+  #home,
+  #shop,
+  #pages {
+    background-image: url(/wp-content/uploads/blatt.png), url(/wp-content/uploads/salat.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: right 26rem, 53rem 35rem;
+  }
+}
+@media (max-width: 990px) {
+  #home,
+  #shop,
+  #pages {
+    background-image: none;
+  }
+}

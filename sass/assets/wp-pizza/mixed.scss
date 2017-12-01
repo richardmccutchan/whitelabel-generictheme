@@ -1,0 +1,33 @@
+.b_site.b_background--default {
+  background-image: url(/wp-content/uploads/bg.jpg) !important;
+  background-attachment: scroll !important
+}
+#b_site_content {
+  background-image: url(/wp-content/uploads/burger-oben-rechts.png), url(/wp-content/uploads/pizza.png), url(/wp-content/uploads/blatt.png), url(/wp-content/uploads/schale.png), url(/wp-content/uploads/asiatisch-halber-teller-kohl-nudeln.png), url(/wp-content/uploads/pfanne.png);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: top right, -9rem -8rem, left 20rem, -4rem 27rem, left 42rem, bottom right;
+  background-attachment: scroll;
+}
+.mpc-overlay.mpc-overlay--first,
+.mpc-overlay.mpc-overlay--second {
+  display: none
+}
+.mpc-row[data-row-id="mpc_row-1459c991714e830"] > .mpc-overlay--first {
+    display: block;
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+  #b_site_content {
+    background-image: url(/wp-content/uploads/burger-oben-rechts.png), url(/wp-content/uploads/blatt.png), url(/wp-content/uploads/schale.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 55rem 0, right 26rem, -4rem 10rem;
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 990px) {
+  #b_site_content {
+    background-image: none;
+  }
+}

@@ -1,0 +1,77 @@
+//colors
+$white: #ffffff;
+$color_cta: #f05103;
+$color_font: #333333;
+$color_form_border: $white;
+$color_form_text: #0a0a0a;
+$color_form_input_bg: #fefefe;
+$color_form_input_box_shadow: rgba(10, 10, 10, 0.1);
+$color_form_rating_label_hover: $color_cta;
+$color_topmenu_bg: rgba(255, 255, 255, 0.6);
+$color_shopmenu_bg: rgba(255, 255, 255, 0.7);
+$color_shopmenu_hover_bg: $color_cta;
+$color_submenu_bg: rgba(255, 255, 255, 0.2);
+$color_submenu_hover_bg: rgba(255, 255, 255, 0.5);
+$color_shop_price_bg: rgba(250, 204, 22, 0.5);
+$color_shop_cart_box_shadow: rgba(0, 0, 0, 0.7);
+$color_shop_cart_category: #828282;
+//fonts
+$font_0: inherit;
+.wppizza-cart-nocheckout {
+  color: $color_cta;
+}
+
+.logo {
+  width: 150px;
+  padding: 1rem 1rem 0.7rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.shoplogo-holder {
+  display: none
+}
+
+.b_site.b_background--default {
+  background-size: 100% !important;
+}
+
+.vc_custom_1503625536247 {
+  padding: 0px !important;
+}
+.vc_custom_1503625536247 .logo {
+  margin-top: 0rem
+}
+
+@media (max-width: 990px) {
+  .vc_custom_1503627451755 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .logo {
+    display: inline-block;
+    width: 100px;
+    padding: .5rem .5rem .2rem .5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+  }
+  #imprint-wrapper {
+    background-color: $white;
+    color: $color_font;
+  }
+  #wppizza-send-order,
+  .wppizza-cart {
+    background-color: $white;
+    color: $color_font;
+    padding: .5rem;
+    & h4 {
+      color: $color_font;
+      margin-top: 0
+    }
+  }
+  #sub-menu {
+    margin-top: -.5rem !important
+  }
+}

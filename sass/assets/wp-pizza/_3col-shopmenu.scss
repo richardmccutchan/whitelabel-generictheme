@@ -1,0 +1,11 @@
+#menu-shop {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  padding-left: 0;
+  li {
+    margin-bottom: 1px;
+    width: 150px;
+    display: inline-block;
+  }
+}
