@@ -62,3 +62,4 @@ var browserSyncOptions = {
 - then run: `$ gulp watch-bs`
 
 [1] Visit [http://browsersync.io](http://browsersync.io) for more information on Browser Sync
+# whitelabel-generictheme
